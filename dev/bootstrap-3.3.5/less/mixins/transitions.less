@@ -1,0 +1,13 @@
+// Transitions
+
+#transition {
+
+  // Transitions to make changing background colors look pretty
+  .background(@time: 100ms; @function: ease) {
+    -webkit-transition: background @time @function;
+    -moz-transition: background @time @function;
+    -ms-transition: background @time @function;
+    -o-transition: background @time @function;
+    transition: background @time @function;
+  }
+}
