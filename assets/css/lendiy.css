@@ -9,6 +9,11 @@
 	text-shadow: #444 0 2px 2px;
 }
 
+#navbar-transform {
+	position: fixed;
+	top: 20px;
+}
+
 .navbar-right-spacing {
 	margin-right: 7px;
 }
