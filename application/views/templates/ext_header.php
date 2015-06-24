@@ -13,8 +13,6 @@
 
 	<body>
 		<div class="wrapper">
-			<div id="navbar-transform"></div>
-
 			<nav class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
 					<div class="navbar-header">
