@@ -334,6 +334,11 @@ fieldset[disabled] .btn-danger.active {
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#660596ff', endColorstr='#66008ef5', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  -webkit-transition: background 100ms ease;
+  -moz-transition: background 100ms ease;
+  -ms-transition: background 100ms ease;
+  -o-transition: background 100ms ease;
+  transition: background 100ms ease;
   border-radius: 2px;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
@@ -353,21 +358,26 @@ fieldset[disabled] .btn-danger.active {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25);
 }
 .navbar-inverse {
-  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-  background-image: -o-linear-gradient(top, #3c3c3c 0%, #222222 100%);
-  background-image: linear-gradient(to bottom, #3c3c3c 0%, #222222 100%);
+  background-image: -webkit-linear-gradient(top, #0596ff 0%, #008ef5 100%);
+  background-image: -o-linear-gradient(top, #0596ff 0%, #008ef5 100%);
+  background-image: linear-gradient(to bottom, #0596ff 0%, #008ef5 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0596ff', endColorstr='#ff008ef5', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  -webkit-transition: background 200ms cubic-bezier(0.4, 0, 1, 1);
+  -moz-transition: background 200ms cubic-bezier(0.4, 0, 1, 1);
+  -ms-transition: background 200ms cubic-bezier(0.4, 0, 1, 1);
+  -o-transition: background 200ms cubic-bezier(0.4, 0, 1, 1);
+  transition: background 200ms cubic-bezier(0.4, 0, 1, 1);
   border-radius: 2px;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .active > a {
-  background-image: -webkit-linear-gradient(top, #080808 0%, #0f0f0f 100%);
-  background-image: -o-linear-gradient(top, #080808 0%, #0f0f0f 100%);
-  background-image: linear-gradient(to bottom, #080808 0%, #0f0f0f 100%);
+  background-image: -webkit-linear-gradient(top, rgba(0, 123, 212, 0.4) 0%, rgba(0, 130, 225, 0.4) 100%);
+  background-image: -o-linear-gradient(top, rgba(0, 123, 212, 0.4) 0%, rgba(0, 130, 225, 0.4) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 123, 212, 0.4) 0%, rgba(0, 130, 225, 0.4) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff080808', endColorstr='#ff0f0f0f', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66007bd4', endColorstr='#660082e1', GradientType=0);
   -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
 }

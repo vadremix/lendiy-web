@@ -8,6 +8,7 @@
 
 		<link href="<?php echo $project['base_path']; ?>assets/css/bootstrap.css" rel="stylesheet">
 		<link href="<?php echo $project['base_path']; ?>assets/css/bootstrap-theme.css" rel="stylesheet">
+
 		<link href="<?php echo $project['base_path']; ?>assets/css/lendiy.css" rel="stylesheet">
 	</head>
 

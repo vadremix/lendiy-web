@@ -2,14 +2,15 @@
 // Animates navbar when user scrolls
 
 $('.wrapper').waypoint(function(direction) {
-	console.log('hit ' + direction);
 	if(direction == 'down') {
 		$('.navbar').animate({ marginTop: '0px' }, 150);
+		$(".navbar").toggleClass("navbar-default navbar-inverse");
 	} else if(direction == 'up') {
-		$('.navbar').animate({ marginTop: '10px' }, 100);
+		$('.navbar').animate({ marginTop: '10px' }, 150);
+		$(".navbar").toggleClass("navbar-inverse navbar-default");
 	}
 }, {
-	offset: -10
+	offset: -20
 });
 
 // Intercepts scroll wheel to make scrolling smooth
