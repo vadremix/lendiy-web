@@ -328,11 +328,11 @@ fieldset[disabled] .btn-danger.active {
   background-color: #006dba;
 }
 .navbar-default {
-  background-image: -webkit-linear-gradient(top, #109aff 0%, #008ef5 100%);
-  background-image: -o-linear-gradient(top, #109aff 0%, #008ef5 100%);
-  background-image: linear-gradient(to bottom, #109aff 0%, #008ef5 100%);
+  background-image: -webkit-linear-gradient(top, rgba(5, 150, 255, 0.4) 0%, rgba(0, 142, 245, 0.4) 100%);
+  background-image: -o-linear-gradient(top, rgba(5, 150, 255, 0.4) 0%, rgba(0, 142, 245, 0.4) 100%);
+  background-image: linear-gradient(to bottom, rgba(5, 150, 255, 0.4) 0%, rgba(0, 142, 245, 0.4) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff109aff', endColorstr='#ff008ef5', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#660596ff', endColorstr='#66008ef5', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   border-radius: 2px;
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 5px rgba(0, 0, 0, 0.075);
@@ -340,11 +340,11 @@ fieldset[disabled] .btn-danger.active {
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .active > a {
-  background-image: -webkit-linear-gradient(top, #006cba 0%, #0075ca 100%);
-  background-image: -o-linear-gradient(top, #006cba 0%, #0075ca 100%);
-  background-image: linear-gradient(to bottom, #006cba 0%, #0075ca 100%);
+  background-image: -webkit-linear-gradient(top, rgba(0, 108, 186, 0.4) 0%, rgba(0, 117, 202, 0.4) 100%);
+  background-image: -o-linear-gradient(top, rgba(0, 108, 186, 0.4) 0%, rgba(0, 117, 202, 0.4) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 108, 186, 0.4) 0%, rgba(0, 117, 202, 0.4) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff006cba', endColorstr='#ff0075ca', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66006cba', endColorstr='#660075ca', GradientType=0);
   -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
 }

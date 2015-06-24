@@ -27,7 +27,7 @@
 				<div id="navbar" class="navbar-collapse collapse">
 					<div class="nav navbar-nav navbar-right">
 						<button class="navbar-btn btn btn-success">Sign up</button>
-						<button class="navbar-btn btn btn-primary">Sign in</button>
+						<button class="navbar-btn btn btn-primary navbar-right-spacing">Sign in</button>
 					</div>
 				</div><!--/.navbar-collapse -->
 			</div>
