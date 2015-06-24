@@ -6,6 +6,8 @@
 	<!-- IE 10 viewport hack -->
 	<script src="<?php echo $project['base_path']; ?>assets/js/ie10-viewport-bug-workaround.js"></script>
 
+	<script src="<?php echo $project['base_path']; ?>assets/js/lendiy.js"></script>
+
 	</body>
 
 </html>
