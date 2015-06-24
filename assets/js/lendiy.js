@@ -6,11 +6,11 @@ $('.wrapper').waypoint(function(direction) {
 		$('.navbar').animate({ marginTop: '0px' }, 150);
 		$(".navbar").toggleClass("navbar-default navbar-inverse");
 	} else if(direction == 'up') {
-		$('.navbar').animate({ marginTop: '10px' }, 150);
+		$('.navbar').animate({ marginTop: '15px' }, 150);
 		$(".navbar").toggleClass("navbar-inverse navbar-default");
 	}
 }, {
-	offset: -30
+	offset: -40
 });
 
 // Intercepts scroll wheel to make scrolling smooth
