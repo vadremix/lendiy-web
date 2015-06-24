@@ -328,11 +328,11 @@ fieldset[disabled] .btn-danger.active {
   background-color: #006dba;
 }
 .navbar-default {
-  background-image: -webkit-linear-gradient(top, rgba(5, 150, 255, 0.4) 0%, rgba(0, 142, 245, 0.4) 100%);
-  background-image: -o-linear-gradient(top, rgba(5, 150, 255, 0.4) 0%, rgba(0, 142, 245, 0.4) 100%);
-  background-image: linear-gradient(to bottom, rgba(5, 150, 255, 0.4) 0%, rgba(0, 142, 245, 0.4) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(5, 150, 255, 0.65) 0%, rgba(0, 142, 245, 0.65) 100%);
+  background-image: -o-linear-gradient(top, rgba(5, 150, 255, 0.65) 0%, rgba(0, 142, 245, 0.65) 100%);
+  background-image: linear-gradient(to bottom, rgba(5, 150, 255, 0.65) 0%, rgba(0, 142, 245, 0.65) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#660596ff', endColorstr='#66008ef5', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a60596ff', endColorstr='#a6008ef5', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   -webkit-transition: background 100ms ease;
   -moz-transition: background 100ms ease;
@@ -345,11 +345,11 @@ fieldset[disabled] .btn-danger.active {
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .active > a {
-  background-image: -webkit-linear-gradient(top, rgba(0, 108, 186, 0.4) 0%, rgba(0, 117, 202, 0.4) 100%);
-  background-image: -o-linear-gradient(top, rgba(0, 108, 186, 0.4) 0%, rgba(0, 117, 202, 0.4) 100%);
-  background-image: linear-gradient(to bottom, rgba(0, 108, 186, 0.4) 0%, rgba(0, 117, 202, 0.4) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(0, 108, 186, 0.65) 0%, rgba(0, 117, 202, 0.65) 100%);
+  background-image: -o-linear-gradient(top, rgba(0, 108, 186, 0.65) 0%, rgba(0, 117, 202, 0.65) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 108, 186, 0.65) 0%, rgba(0, 117, 202, 0.65) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66006cba', endColorstr='#660075ca', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6006cba', endColorstr='#a60075ca', GradientType=0);
   -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
 }
@@ -373,11 +373,11 @@ fieldset[disabled] .btn-danger.active {
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .active > a {
-  background-image: -webkit-linear-gradient(top, rgba(0, 123, 212, 0.4) 0%, rgba(0, 130, 225, 0.4) 100%);
-  background-image: -o-linear-gradient(top, rgba(0, 123, 212, 0.4) 0%, rgba(0, 130, 225, 0.4) 100%);
-  background-image: linear-gradient(to bottom, rgba(0, 123, 212, 0.4) 0%, rgba(0, 130, 225, 0.4) 100%);
+  background-image: -webkit-linear-gradient(top, rgba(0, 123, 212, 0.65) 0%, rgba(0, 130, 225, 0.65) 100%);
+  background-image: -o-linear-gradient(top, rgba(0, 123, 212, 0.65) 0%, rgba(0, 130, 225, 0.65) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 123, 212, 0.65) 0%, rgba(0, 130, 225, 0.65) 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#66007bd4', endColorstr='#660082e1', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6007bd4', endColorstr='#a60082e1', GradientType=0);
   -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.25);
 }

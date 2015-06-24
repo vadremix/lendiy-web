@@ -10,7 +10,7 @@ $('.wrapper').waypoint(function(direction) {
 		$(".navbar").toggleClass("navbar-inverse navbar-default");
 	}
 }, {
-	offset: -20
+	offset: -30
 });
 
 // Intercepts scroll wheel to make scrolling smooth
