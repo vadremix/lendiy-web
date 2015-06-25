@@ -80,6 +80,7 @@
     // Undo the collapse side padding for navbars with containers to ensure
     // alignment of right-aligned contents.
     .navbar-fixed-top &,
+    .navbar-absolute-top &,
     .navbar-static-top &,
     .navbar-fixed-bottom & {
       padding-left: 0;
@@ -88,6 +89,7 @@
   }
 }
 
+.navbar-absolute-top,
 .navbar-fixed-top,
 .navbar-fixed-bottom {
   .navbar-collapse {
@@ -136,9 +138,9 @@
 }
 
 // Fix the top/bottom navbars when screen real estate supports it
+.navbar-absolute-top,
 .navbar-fixed-top,
 .navbar-fixed-bottom {
-  position: fixed;
   right: 0;
   left: 0;
   z-index: @zindex-navbar-fixed;
@@ -148,6 +150,14 @@
     border-radius: 0;
   }
 }
+.navbar-absolute-top {
+  position: absolute;
+}
+.navbar-fixed-top,
+.navbar-fixed-bottom {
+  position: fixed;
+}
+.navbar-absolute-top,
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;

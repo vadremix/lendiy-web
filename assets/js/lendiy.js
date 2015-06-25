@@ -3,15 +3,18 @@
 
 $('.wrapper').waypoint(function(direction) {
 	if(direction == 'down') {
-		$('.navbar').animate({ marginTop: '0px' }, 150);
+		$('.navbar').css({ marginTop: '0px' });
 		$(".navbar").toggleClass("navbar-default navbar-inverse");
+		$(".navbar").toggleClass("navbar-absolute-top navbar-fixed-top");
 	} else if(direction == 'up') {
-		$('.navbar').animate({ marginTop: '15px' }, 150);
+		$('.navbar').css({ marginTop: '15px' });
 		$(".navbar").toggleClass("navbar-inverse navbar-default");
+		$(".navbar").toggleClass("navbar-fixed-top navbar-absolute-top");
 	}
 }, {
-	offset: -40
+	offset: -15
 });
+
 
 // Intercepts scroll wheel to make scrolling smooth
 
