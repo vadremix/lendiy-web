@@ -1,12 +1,12 @@
 .m-jumbotron {
-	background: #eee url('/assets/img/photos/m_jumbotron.jpg') no-repeat center center;
+	background: #E9EEF2 url('/assets/img/photos/m_jumbotron.jpg') no-repeat center center;
 	width: 100%;
 	top:0;
 	left:0;
 	z-index: -1;
 
 	color: white;
-	text-shadow: #444 0 2px 2px;
+	text-shadow: #000000 2px 2px 14px;;
 }
 
 .navbar-right-spacing {
